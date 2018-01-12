@@ -1,0 +1,11 @@
+{
+  "name": "cf-test-sheets-app",
+  "version": "0.1.0",
+  "dependencies": {
+    "google-spreadsheet-to-json": "^1.0.0"
+  },
+  "scripts" :{
+    "local" : "serverless invoke local --function sheet",
+    "deploy" : "serverless package && severless deploy"
+  }
+}
